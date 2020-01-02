@@ -1,0 +1,33 @@
+vi:
+  hello: "Hello world"
+  describe: Ung dung mau huong dan Ruby on Rails
+  static_pages:
+    home:
+      title: Trang chu
+      caption: Ung dung mau
+      this: Day la trang chu cho
+      ruby: Huong dan Ruby on Rails
+      sample: ung dung mau
+    English: Tieng Anh
+    Vietnamese: TiengViet
+    help:
+      title: Tro Giup
+      caption: Tro Giup
+      get: Nhan tro giup ve huong dan Ruby on Rails tai
+      rails: Trang tro giup huong dan Rails
+      to: De duoc tro giup ve ung dung mau nay, xem
+      ruby: sach huong dan Ruby on Rails.
+    about:
+      title: Gioi thieu
+      caption: Gioi thieu
+      the: Cai
+      ruby: Huong dan Ruby on Rails,
+      part: mot phan cua
+      learn: Hoc du
+      family: gia dinh huong dan, la mot
+      book: cuon sach
+      and: va
+      screen: loat screencast
+      to: de da phat trien web voi
+      rbs: Ruby on Rails.
+      this: Day la ung dung mau cho huong dan

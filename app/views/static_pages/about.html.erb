@@ -1,0 +1,16 @@
+<% provide(:title, t(".title")) %>
+<h1><%= t ".caption" %></h1>
+<p>
+  <%= t ".the" %>
+  <em><%= link_to t(".ruby"),
+    Settings.link_tutorial_home %></em>,
+  <%= t ".part" %>
+  <%= link_to t(".learn"), Settings.link_learn %>
+  <%= t ".family" %>
+  <%= link_to t(".book"), Settings.link_tutorial_book %>
+  <%= t ".and" %>
+  <%= link_to t(".screen"), Settings.link_screencasts %>
+  <%= t ".to" %>
+  <%= link_to t(".rbs"), Settings.link_ruby_on_rails %>
+  <%= t ".this" %>
+</p>
