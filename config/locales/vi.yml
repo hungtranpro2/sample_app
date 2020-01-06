@@ -1,15 +1,19 @@
 vi:
+  english: Tieng Anh
+  vietnamese: TiengViet
   hello: "Hello world"
   describe: Ung dung mau huong dan Ruby on Rails
+  sample_app: ung dung mau
+  login: Dang Nhap
   static_pages:
     home:
       title: Trang chu
-      caption: Ung dung mau
+      caption: Chao mung den voi Ung dung mau
       this: Day la trang chu cho
       ruby: Huong dan Ruby on Rails
       sample: ung dung mau
-    English: Tieng Anh
-    Vietnamese: TiengViet
+      sign_up: Dang ky ngay!
+      logo: Rails logo
     help:
       title: Tro Giup
       caption: Tro Giup
@@ -31,3 +35,20 @@ vi:
       to: de da phat trien web voi
       rbs: Ruby on Rails.
       this: Day la ung dung mau cho huong dan
+    contact:
+      title: Lien he
+      caption: Lien he
+      content: Lien he ve huong dan Ruby on Rails ve ung dung mau tai
+      page: trang lien he
+  footer:
+    ruby: Huong dan Ruby on Rails
+    by: boi
+    author: Michael Hartl
+    link1: Gioi thieu
+    link2: Lien he
+    link3: Tin tuc
+  users:
+    new:
+      title: Dang ky
+      caption: Dang ky
+      content: Day se la mot trang dang ky nguoi dung moi.

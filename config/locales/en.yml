@@ -1,15 +1,19 @@
 en:
+  english: English
+  vietnamese: Vietnamese
   hello: "Hello world"
   describe: Ruby on Rails Tutorial Sample App
+  sample_app: sample app
+  login: Log in
   static_pages:
     home:
       title: Home
-      caption: Sample App
+      caption: Welcome to the Sample App
       this: This is the home page for the
       ruby: Ruby on Rails Tutorial
-      sample: sample application.
-    English: English
-    Vietnamese: Vietnamese
+      sample: sample application
+      sign_up: Sign up now!
+      logo: Rails logo
     help:
       title: Help
       caption: Help
@@ -31,3 +35,20 @@ en:
       to: to teach web development with
       rbs: Ruby on Rails.
       this: This is the sample app for the tutorial.
+    contact:
+      title: Contact
+      caption: Contact
+      content: Contact the Ruby on Rails Tutorial about the sample app at the
+      page: contact page
+  footer:
+    ruby: The Ruby on Rails Tutorial
+    by: by
+    author: Michael Hartl
+    link1: About
+    link2: Contact
+    link3: News
+  users:
+    new:
+      title: Sign up
+      caption: Sign up
+      content: This will be a signup page for new users.

@@ -21,7 +21,10 @@ gem "config"
 
 gem "bootsnap", ">= 1.4.2", require: false
 
+gem "bootstrap-sass", "3.3.7"
+
 gem "rails-i18n"
+
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
 end
@@ -35,6 +38,7 @@ end
 
 group :test do
   gem "capybara", ">= 2.15"
+  gem "rails-controller-testing"
   gem "selenium-webdriver"
   gem "webdrivers"
 end

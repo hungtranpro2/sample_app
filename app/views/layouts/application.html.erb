@@ -7,13 +7,17 @@
     <%= stylesheet_link_tag "application", media: "all",
      "data-turbolinks-track": "reload" %>
     <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
+    <%= render "layouts/shim" %>
   </head>
-
   <body>
-    <h2>
-      <%= link_to t("static_pages.English"), locale: "en" %>
-      <%= link_to t("static_pages.Vietnamese"), locale: "vi" %>
-    </h2>
-    <%= yield %>
+    <%= render "layouts/header" %>
+    <h4>
+      <%= link_to t("english"), locale: "en" %>
+      <%= link_to t("vietnamese"), locale: "vi" %>
+    </h4>
+    <div class="container">
+      <%= yield %>
+      <%= render "layouts/footer" %>
+    </div>
   </body>
 </html>
