@@ -1,9 +1,10 @@
 vi:
   english: Tieng Anh
   vietnamese: TiengViet
-  hello: "Hello world"
   describe: Ung dung mau huong dan Ruby on Rails
   sample_app: ung dung mau
+  show_error: Bieu mau chua
+  err: loi
   login: Dang Nhap
   static_pages:
     home:
@@ -51,4 +52,16 @@ vi:
     new:
       title: Dang ky
       caption: Dang ky
-      content: Day se la mot trang dang ky nguoi dung moi.
+      create: "Tao mot tai khoan"
+    show:
+      create_success: Chao mung den voi ung dung mau
+      create_fail: Dang ky that bai
+      find_fail: khong tim thay
+  helpers:
+    label:
+      user:
+        name: "Ten"
+        email: "Email"
+        password: "Mat khau"
+        password_confirmation: "Xac nhan"
+        submit: "Tao mot %{model}"
