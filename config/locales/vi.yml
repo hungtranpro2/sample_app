@@ -83,3 +83,5 @@ vi:
       log_in: Dang Nhap
       new_user: Nguoi dung moi
       sign_up: Dang ky ngay!
+  sessions_controller:
+    invalid: Email/Mat khau khong hop le

@@ -65,10 +65,7 @@ en:
     show:
       create_success: Welcome to the Sample App
       create_fail: Sign up failed
-<<<<<<< HEAD
       find_fail: not found
-=======
->>>>>>> 762b9ac... chapter_8: Basic login
   helpers:
     label:
       user:
@@ -86,3 +83,5 @@ en:
       log_in: Log in
       new_user: New user
       sign_up: Sign up now!
+  sessions_controller:
+    invalid: Invalid email/password combination
