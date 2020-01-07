@@ -7,3 +7,7 @@ link_ruby_on_rails: https://rubyonrails.org/
 link_michael: http://www.michaelhartl.com/
 link_tutorial_news: http://news.railstutorial.org/
 link_tutorial_contact: "https://www.railstutorial.org/contact"
+max_name: 50
+max_email: 255
+min_pass: 6
+valid_email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
