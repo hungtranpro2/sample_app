@@ -1,8 +1,9 @@
 en:
   english: English
   vietnamese: Vietnamese
-  hello: "Hello world"
   describe: Ruby on Rails Tutorial Sample App
+  show_error: The form contains
+  err: error
   sample_app: sample app
   login: Log in
   static_pages:
@@ -47,8 +48,41 @@ en:
     link1: About
     link2: Contact
     link3: News
+  header:
+    home: Home
+    help: Help
+    users: Users
+    account: Account
+    profile: Profile
+    settings: Settings
+    log_out: Log out
+    log_in: Log in
   users:
     new:
       title: Sign up
       caption: Sign up
-      content: This will be a signup page for new users.
+      create: "Create my account"
+    show:
+      create_success: Welcome to the Sample App
+      create_fail: Sign up failed
+<<<<<<< HEAD
+      find_fail: not found
+=======
+>>>>>>> 762b9ac... chapter_8: Basic login
+  helpers:
+    label:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirmation"
+      session:
+        email: Email
+        password: Password
+  sessions:
+    new:
+      title: Log in
+      caption: Log in
+      log_in: Log in
+      new_user: New user
+      sign_up: Sign up now!
