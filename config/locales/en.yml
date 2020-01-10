@@ -1,33 +1,88 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  english: English
+  vietnamese: Vietnamese
+  describe: Ruby on Rails Tutorial Sample App
+  show_error: The form contains
+  err: error
+  sample_app: sample app
+  login: Log in
+  static_pages:
+    home:
+      title: Home
+      caption: Welcome to the Sample App
+      this: This is the home page for the
+      ruby: Ruby on Rails Tutorial
+      sample: sample application
+      sign_up: Sign up now!
+      logo: Rails logo
+    help:
+      title: Help
+      caption: Help
+      get: Get help on the Ruby on Rails Tutorial at the
+      rails: Rails Tutorial Help page.
+      to: To get help on this sample app, see the
+      ruby: Ruby on Rails Tutorial book.
+    about:
+      title: About
+      caption: About
+      the: The
+      ruby: Ruby on Rails Tutorial,
+      part: part of the
+      learn: Learn Enough
+      family: family of tutorials, is a
+      book: book
+      and: and
+      screen: screencast series
+      to: to teach web development with
+      rbs: Ruby on Rails.
+      this: This is the sample app for the tutorial.
+    contact:
+      title: Contact
+      caption: Contact
+      content: Contact the Ruby on Rails Tutorial about the sample app at the
+      page: contact page
+  footer:
+    ruby: The Ruby on Rails Tutorial
+    by: by
+    author: Michael Hartl
+    link1: About
+    link2: Contact
+    link3: News
+  header:
+    home: Home
+    help: Help
+    users: Users
+    account: Account
+    profile: Profile
+    settings: Settings
+    log_out: Log out
+    log_in: Log in
+  users:
+    new:
+      title: Sign up
+      caption: Sign up
+      create: "Create my account"
+    show:
+      create_success: Welcome to the Sample App
+      create_fail: Sign up failed
+<<<<<<< HEAD
+      find_fail: not found
+=======
+>>>>>>> 762b9ac... chapter_8: Basic login
+  helpers:
+    label:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirmation"
+      session:
+        email: Email
+        password: Password
+  sessions:
+    new:
+      title: Log in
+      caption: Log in
+      log_in: Log in
+      new_user: New user
+      sign_up: Sign up now!

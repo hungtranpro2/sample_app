@@ -1,0 +1,85 @@
+vi:
+  english: Tieng Anh
+  vietnamese: TiengViet
+  describe: Ung dung mau huong dan Ruby on Rails
+  sample_app: ung dung mau
+  show_error: Bieu mau chua
+  err: loi
+  login: Dang Nhap
+  static_pages:
+    home:
+      title: Trang chu
+      caption: Chao mung den voi Ung dung mau
+      this: Day la trang chu cho
+      ruby: Huong dan Ruby on Rails
+      sample: ung dung mau
+      sign_up: Dang ky ngay!
+      logo: Rails logo
+    help:
+      title: Tro Giup
+      caption: Tro Giup
+      get: Nhan tro giup ve huong dan Ruby on Rails tai
+      rails: Trang tro giup huong dan Rails
+      to: De duoc tro giup ve ung dung mau nay, xem
+      ruby: sach huong dan Ruby on Rails.
+    about:
+      title: Gioi thieu
+      caption: Gioi thieu
+      the: Cai
+      ruby: Huong dan Ruby on Rails,
+      part: mot phan cua
+      learn: Hoc du
+      family: gia dinh huong dan, la mot
+      book: cuon sach
+      and: va
+      screen: loat screencast
+      to: de da phat trien web voi
+      rbs: Ruby on Rails.
+      this: Day la ung dung mau cho huong dan
+    contact:
+      title: Lien he
+      caption: Lien he
+      content: Lien he ve huong dan Ruby on Rails ve ung dung mau tai
+      page: trang lien he
+  footer:
+    ruby: Huong dan Ruby on Rails
+    by: boi
+    author: Michael Hartl
+    link1: Gioi thieu
+    link2: Lien he
+    link3: Tin tuc
+  header:
+    home: Trang chu
+    help: Tro giup
+    users: Nguoi dung
+    account: Tai khoan
+    profile: Ho so
+    settings: Cai dat
+    log_out: Dang xuat
+    log_in: Dang nhap
+  users:
+    new:
+      title: Dang ky
+      caption: Dang ky
+      create: "Tao mot tai khoan"
+    show:
+      create_success: Chao mung den voi ung dung mau
+      create_fail: Dang ky that bai
+      find_fail: khong tim thay
+  helpers:
+    label:
+      user:
+        name: "Ten"
+        email: "Email"
+        password: "Mat khau"
+        password_confirmation: "Xac nhan"
+      session:
+        email: Email
+        password: Mat khau
+  sessions:
+    new:
+      title: Dang Nhap
+      caption: Dang Nhap
+      log_in: Dang Nhap
+      new_user: Nguoi dung moi
+      sign_up: Dang ky ngay!

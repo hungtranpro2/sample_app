@@ -1,0 +1,13 @@
+<% provide(:title, t(".title")) %>
+<div class="center jumbotron">
+  <h1><%= t ".caption" %></h1>
+  <h2>
+    <%= t ".this" %>
+    <%= link_to t(".ruby"), Settings.link_tutorial_home %>
+    <%= t ".sample" %>.
+  </h2>
+  <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: t(".logo")),
+  Settings.link_tutorial_home %>
