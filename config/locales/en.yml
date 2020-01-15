@@ -83,5 +83,6 @@ en:
       log_in: Log in
       new_user: New user
       sign_up: Sign up now!
+      remember: Remember me on this computer
   sessions_controller:
     invalid: Invalid email/password combination
