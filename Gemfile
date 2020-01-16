@@ -7,6 +7,12 @@ gem "rails", "~> 6.0.2", ">= 6.0.2.1"
 
 gem "bcrypt", "3.1.12"
 
+gem "faker"
+
+gem "will_paginate", "3.1.7"
+
+gem "bootstrap-will_paginate", "1.0.0"
+
 gem "sqlite3", "~> 1.4"
 
 gem "puma", "~> 4.1"

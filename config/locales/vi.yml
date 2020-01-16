@@ -66,6 +66,20 @@ vi:
       create_success: Chao mung den voi ung dung mau
       create_fail: Dang ky that bai
       find_fail: khong tim thay
+      update: Cap nhat ho so
+      delete: Xoa nguoi dung
+      please: Xin vui long dang nhap.
+    edit:
+      title: Chinh sua nguoi dung
+      caption: Cap nhat ho so cua ban
+      save: Luu thay doi
+      change: thay doi
+    user:
+      delete: xoa
+      sure: ban co chac?
+    index:
+      title: Tat ca nguoi dung
+      caption: Tat ca nguoi dung
   helpers:
     label:
       user:

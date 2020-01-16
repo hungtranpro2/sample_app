@@ -66,6 +66,20 @@ en:
       create_success: Welcome to the Sample App
       create_fail: Sign up failed
       find_fail: not found
+      update: Profile update
+      delete: User delete
+      please: Please log in.
+    edit:
+      title: Edit user
+      caption: Update your profile
+      save: Save changes
+      change: change
+    user:
+      delete: delete
+      sure: you sure?
+    index:
+      title: All users
+      caption: All users
   helpers:
     label:
       user:
