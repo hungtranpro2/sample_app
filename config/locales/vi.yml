@@ -69,6 +69,7 @@ vi:
       update: Cap nhat ho so
       delete: Xoa nguoi dung
       please: Xin vui long dang nhap.
+      check: Hay kiem tra email cua ban de kich hoat tai khoan cua ban.
     edit:
       title: Chinh sua nguoi dung
       caption: Cap nhat ho so cua ban
@@ -100,3 +101,8 @@ vi:
       remember: Hay nho toi tren may tinh nay
   sessions_controller:
     invalid: Email/Mat khau khong hop le
+    message1: "Tai khoan chua duoc kich hoat. "
+    message2: Kiem tra email cua ban de biet lien ket kich hoat.
+  account_activation:
+    activated: Tai khoan duoc kich hoat!
+    invalid: Lien ket kich hoat khong hop le

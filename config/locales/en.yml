@@ -69,6 +69,7 @@ en:
       update: Profile update
       delete: User delete
       please: Please log in.
+      check: Please check your email to activate your account.
     edit:
       title: Edit user
       caption: Update your profile
@@ -100,3 +101,8 @@ en:
       remember: Remember me on this computer
   sessions_controller:
     invalid: Invalid email/password combination
+    message1: "Account not activated. "
+    message2: Check your email for the activation link.
+  account_activation:
+    activated: Account activated!
+    invalid: Invalid activation link
