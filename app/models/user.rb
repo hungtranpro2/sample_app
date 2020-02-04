@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   validates :email, format: {with: Settings.valid_email_regex}, presence: true,
     length: {maximum: Settings.max_email}, uniqueness: {case_sensitive: false}
   validates :password, presence: true, length: {minimum: Settings.min_pass},
@@ -57,6 +58,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < 2.hours.ago
+  end
+
+  def feed
+    Micropost.where("user_id = ?", id)
   end
 
   private
