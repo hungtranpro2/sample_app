@@ -9,7 +9,7 @@ gem "bcrypt", "3.1.12"
 
 gem "sqlite3", "~> 1.4"
 
-gem "puma", "~> 4.1"
+gem "puma", "~> 4.3"
 
 gem "sass-rails", ">= 6"
 
